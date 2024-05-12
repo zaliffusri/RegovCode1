@@ -1,0 +1,102 @@
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  background-image: linear-gradient(to bottom right, #ffffff, #e0e0e0); /* subtle gradient background */
+}
+
+.register-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* rounded corners for the image */
+}
+
+.register-form-container {
+  flex: 1;
+  padding: 40px; /* increased padding for better spacing */
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* deeper shadow for more depth */
+  margin: 30px;
+  border-radius: 12px; /* more pronounced rounded corners */
+}
+
+.register-form-container h2 {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif; /* using a web-safe font */
+  margin-bottom: 20px; /* more space below the heading */
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 18px; /* larger label size */
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #ccc; /* thicker border for input */
+  border-radius: 6px; /* rounded borders */
+  transition: border-color 0.3s, box-shadow 0.3s; /* smooth transitions */
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 91, 187, 0.5); /* glow effect on focus */
+  outline: none;
+}
+
+.register-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s, transform 0.2s; /* added transform */
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* subtle grow effect */
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 16px; /* adjusted margin for better spacing */
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s; /* smooth color transition */
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* color change on hover */
+}

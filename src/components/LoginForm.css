@@ -1,0 +1,102 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(to top left, #ffffff, #e6e6e6); /* Added a subtle gradient */
+    border: none; /* Removed the border for a cleaner look */
+}
+
+.login-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Added rounded corners to the image */
+}
+
+.login-form-container {
+    flex: 1;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Increased shadow for more depth */
+    border-radius: 12px; /* Increased border radius for a smoother look */
+}
+
+.login-form-container h2 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif; /* Consistent font family */
+    margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 18px; /* Increased font size for better readability */
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #ccc; /* Thicker border for emphasis */
+    border-radius: 6px;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Added transitions for visual effects */
+}
+
+.form-group input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 91, 187, 0.5); /* Added glow effect on focus */
+    outline: none;
+}
+
+.login-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s; /* Added scaling on hover */
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight grow effect on hover */
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 16px; /* Adjusted margin for consistency */
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition for links */
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Color change on hover for better user feedback */
+}

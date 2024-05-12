@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav a, nav button {
+  margin-right: 10px;
+}
+
+form {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
+input, textarea {
+  margin: 10px;
+  display: block;
+}
